@@ -60,20 +60,14 @@ export const App = () => {
   const [isSmart, setIsSmart] = useState(false);
 
   const clickSub = () => {
-    window.gtag("event", "sub_get_click", {
-      variant_name: "second_reactivation_2",
+    window.gtag("event", "5629_get_real_sub", {
+      variant_name: "5629_1",
     });
   };
 
   const clickPrize = () => {
-    window.gtag("event", "prize_get_click", {
-      variant_name: "second_reactivation_2",
-    });
-  };
-
-  const clickInteraction = () => {
-    window.gtag("event", "game_interaction", {
-      variant_name: "second_reactivation_2",
+    window.gtag("event", "5629_get_sub", {
+      variant_name: "5629_1",
     });
   };
 
@@ -271,7 +265,6 @@ export const App = () => {
                 }}
                 onClick={() => {
                   if (!isGameStopped) {
-                    clickInteraction();
                     setSelected(number);
                     setIsGameStopped(true);
                   }
