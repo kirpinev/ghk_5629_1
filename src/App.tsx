@@ -23,7 +23,7 @@ interface Product {
 
 const products: Array<Product> = [
   {
-    title: "Кэшбэк 5% в категории Продукты",
+    title: "+1 топовая категория с кэшбэком 5%",
     text: "Дополнительная категория каждый месяц",
     image: one,
   },
@@ -108,7 +108,7 @@ export const App = () => {
               font="system"
               weight="bold"
             >
-              1 месяц подписки Альфа-смарт
+              1 месяц подписки Альфа-Смарт
             </Typography.TitleResponsive>
           </div>
 
